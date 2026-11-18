@@ -1,0 +1,14 @@
+# Datasets masivos (>100MB excede limite de GitHub)
+Data/
+*.csv
+
+# Metadatos del sistema y zonas NTFS
+*Zone.Identifier
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# Checkpoints de Jupyter y caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
